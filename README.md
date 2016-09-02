@@ -52,3 +52,14 @@ To authenticate your API calls,
 - Install [Go](https://golang.org/doc/install) and Git
   - Git is used by the Go toolchain to fetch dependencies
 - `$ go get github.com/pongad/go-pubsub-usability`
+
+Documentation
+---
+Documentation is available on [GoDoc](https://godoc.org/github.com/pongad/go-pubsub-usability/pubsub/apiv1).
+
+Task List
+---
+- Write the code required to create a Pub/Sub topic
+- Write the code required to create a message and publish it to the topic you created
+- Write the code required to list all topics on your project
+- Write the code required to delete the topic
