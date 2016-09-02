@@ -3,6 +3,13 @@ CAUTION
 Do not use this in production.
 This repository is temporary, only used for usability study.
 
+`goimports`
+---
+This repository is a copy of `cloud.google.com/go/pubsub/apiv1` and `github.com/googleapis/gax-go`
+to insulate the usability test from development churn.
+
+This might confuse `goimports` tool since `pubsub/apiv1` exists in more than one place.
+
 Pub/Sub API Overview
 ---
 Pub/Sub is a Google Cloud Platform real-time messaging service
@@ -47,7 +54,9 @@ TODO: Add project ID
 
 To authenticate your API calls,
 - install and set up [Google Cloud SDK](https://cloud.google.com/sdk/)
-- `$ gcloud auth login`
+- `$ gcloud auth login` or `$ gcloud beta auth application-default login`
+
+TODO: Which one should they use...?
 
 - Install [Go](https://golang.org/doc/install) and Git
   - Git is used by the Go toolchain to fetch dependencies
