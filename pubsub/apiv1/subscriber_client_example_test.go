@@ -17,7 +17,7 @@
 package pubsub_test
 
 import (
-	"cloud.google.com/go/pubsub/apiv1"
+	"github.com/pongad/go-pubsub-usability/pubsub/apiv1"
 	"golang.org/x/net/context"
 	googleapis_pubsub_v1 "google.golang.org/genproto/googleapis/pubsub/v1"
 )

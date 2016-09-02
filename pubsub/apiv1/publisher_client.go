@@ -21,7 +21,7 @@ import (
 	"runtime"
 	"time"
 
-	gax "github.com/googleapis/gax-go"
+	gax "github.com/pongad/go-pubsub-usability/gax-go"
 	"golang.org/x/net/context"
 	"google.golang.org/api/option"
 	"google.golang.org/api/transport"
