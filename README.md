@@ -51,7 +51,7 @@ To authenticate your API calls,
 
 - Install [Go](https://golang.org/doc/install) and Git
   - Git is used by the Go toolchain to fetch dependencies
-- `$ go get github.com/pongad/go-pubsub-usability`
+- `$ go get github.com/pongad/go-pubsub-usability/pubsub/apiv1`
 
 Documentation
 ---
