@@ -22,5 +22,7 @@ const (
 	gapicNameVersion = "gapic/0.1.0"
 )
 
-// Done is returned by iterators on successful completion.
-var Done = errors.New("iterator done")
+var (
+	// Done is returned by iterators on successful completion.
+	Done = errors.New("iterator done")
+)

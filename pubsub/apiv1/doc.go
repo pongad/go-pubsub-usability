@@ -19,4 +19,4 @@
 //
 // Provides reliable, many-to-many, asynchronous messaging between applications.
 //
-package pubsub // import "github.com/pongad/go-pubsub-usability/pubsub/apiv1"
+package pubsub // import "cloud.google.com/go/pubsub/apiv1"
