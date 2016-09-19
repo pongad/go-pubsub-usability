@@ -31,8 +31,6 @@ $ gcloud beta auth application-default login
 
 At this point, you are now authenticated to make calls to Pub/Sub and other Google Cloud services.
 
-TODO: Which one should they use...?
-
 Installation
 ---
 Please ensure you have [Go](https://golang.org/doc/install) and
